@@ -57,7 +57,6 @@ exports.deleteProduct = catchAsyncErrors(
             success: true,
             message: "Product Deleted Successfully"
         })
-
     }
 )
 
