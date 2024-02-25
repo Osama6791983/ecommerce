@@ -35,6 +35,7 @@ function App() {
 
   return (
     <Router>
+      {/*this is header  */}
       <Header />
       {isAuthenticated && <UserOption user={user} />}
       <Route exact path="/" component={Home} />
